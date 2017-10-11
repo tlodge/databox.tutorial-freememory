@@ -9,10 +9,10 @@
     "tags": [
         "adslhs"
     ],
-    "homepage": "https://github.com/tlodge/databox.tutorial-monitor-chart",
+    "homepage": "https://github.com/tlodge/databox.tutorial-freememory",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tlodge/databox.tutorial-monitor-chart.git"
+        "url": "git+https://github.com/tlodge/databox.tutorial-freememory.git"
     },
     "packages": [
         {
