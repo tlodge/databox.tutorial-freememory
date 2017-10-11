@@ -1,0 +1,86 @@
+[
+    {
+        "id": "1f9a05e0.1ae7ea",
+        "label": "new package",
+        "type": "tab"
+    },
+    {
+        "id": "9128d013.fb4b7",
+        "type": "osmonitor",
+        "z": "1f9a05e0.1ae7ea",
+        "name": "free memory",
+        "subtype": "freemem",
+        "x": 366,
+        "y": 401,
+        "wires": [
+            [
+                "b5e7a28f.4fb49",
+                "48c9c01f.cfd7f"
+            ]
+        ]
+    },
+    {
+        "id": "48c9c01f.cfd7f",
+        "type": "chartify",
+        "z": "1f9a05e0.1ae7ea",
+        "name": "",
+        "title": "",
+        "chart": "bar",
+        "xlabel": "",
+        "ylabel": "",
+        "min": "",
+        "max": "",
+        "labels": "",
+        "maxreadings": "",
+        "ticks": "",
+        "xtype": [
+            {
+                "source": "osmonitor",
+                "name": "ts",
+                "type": "time"
+            }
+        ],
+        "ytype": [
+            {
+                "source": "osmonitor",
+                "name": "value",
+                "type": "number"
+            }
+        ],
+        "subtype": "bar",
+        "x": 527,
+        "y": 396,
+        "wires": [
+            [
+                "38c3cefe.306862"
+            ]
+        ]
+    },
+    {
+        "id": "38c3cefe.306862",
+        "type": "app",
+        "z": "1f9a05e0.1ae7ea",
+        "name": "",
+        "appId": "webapp",
+        "layout": [
+            [
+                "48c9c01f.cfd7f"
+            ]
+        ],
+        "x": 680,
+        "y": 401,
+        "wires": []
+    },
+    {
+        "id": "b5e7a28f.4fb49",
+        "type": "debugger",
+        "z": "1f9a05e0.1ae7ea",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 527,
+        "y": 280,
+        "wires": []
+    }
+]
