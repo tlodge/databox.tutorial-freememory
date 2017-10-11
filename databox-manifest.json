@@ -1,0 +1,43 @@
+{
+    "manifest-version": 1,
+    "name": "tlodge-monitor",
+    "version": "0.1.0",
+    "description": "new test ageian",
+    "author": "tlodge",
+    "licence": "MIT",
+    "databox-type": "app",
+    "tags": [
+        "adslhs"
+    ],
+    "homepage": "https://github.com/tlodge/databox.tutorial-monitor-chart",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tlodge/databox.tutorial-monitor-chart.git"
+    },
+    "packages": [
+        {
+            "id": "1f9a05e0.1ae7ea",
+            "name": "new package",
+            "purpose": "asd",
+            "required": false,
+            "datastores": [
+                "9128d013.fb4b7"
+            ],
+            "benefits": "sadas"
+        }
+    ],
+    "allowed-combinations": [],
+    "datasources": [
+        {
+            "type": "freemem",
+            "required": true,
+            "name": "free memory",
+            "clientid": "9128d013.fb4b7",
+            "granularities": []
+        }
+    ],
+    "network-permissions": [],
+    "resource-requirements": {},
+    "volumes": [],
+    "export-whitelist": []
+}
