@@ -10,8 +10,8 @@
         "z": "1f9a05e0.1ae7ea",
         "name": "free memory",
         "subtype": "freemem",
-        "x": 366,
-        "y": 401,
+        "x": 113,
+        "y": 161,
         "wires": [
             [
                 "b5e7a28f.4fb49",
@@ -49,8 +49,8 @@
         ],
         "subtype": "bar",
         "previousinputs": [],
-        "x": 527,
-        "y": 396,
+        "x": 332,
+        "y": 232,
         "wires": [
             [
                 "38c3cefe.306862"
@@ -68,8 +68,8 @@
                 "48c9c01f.cfd7f"
             ]
         ],
-        "x": 680,
-        "y": 401,
+        "x": 502,
+        "y": 228,
         "wires": []
     },
     {
@@ -80,8 +80,8 @@
         "active": true,
         "console": "false",
         "complete": "false",
-        "x": 527,
-        "y": 280,
+        "x": 336,
+        "y": 114,
         "wires": []
     }
 ]
