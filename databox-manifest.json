@@ -9,10 +9,10 @@
     "tags": [
         "adslhs"
     ],
-    "homepage": "https://github.com/tlodge/databox.tutorial-freememory",
+    "homepage": "https://github.com/tlodge/tutorial-freememory",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tlodge/databox.tutorial-freememory.git"
+        "url": "git+https://github.com/tlodge/tutorial-freememory.git"
     },
     "packages": [
         {
