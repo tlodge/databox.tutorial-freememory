@@ -34,6 +34,13 @@
             "name": "free memory",
             "clientid": "9128d013.fb4b7",
             "granularities": []
+        },
+        {
+            "type": "personalLoggerActuator",
+            "required": false,
+            "name": "personalLoggerActuator",
+            "clientid": "personalLoggerActuator",
+            "granularites": []
         }
     ],
     "network-permissions": [],
