@@ -8,6 +8,7 @@
         "id": "9128d013.fb4b7",
         "type": "osmonitor",
         "z": "1f9a05e0.1ae7ea",
+        "ptype": [],
         "name": "free memory",
         "subtype": "freemem",
         "x": 113,
@@ -23,6 +24,30 @@
         "id": "48c9c01f.cfd7f",
         "type": "chartify",
         "z": "1f9a05e0.1ae7ea",
+        "ptype": {
+            "": [
+                {
+                    "type": "identifier",
+                    "ordinal": "primary",
+                    "description": "a tweet or twitter username can be matched to an individual",
+                    "required": [
+                        "payload.value"
+                    ],
+                    "accretion": false
+                },
+                {
+                    "type": "personal",
+                    "subtype": "gender",
+                    "ordinal": "primary",
+                    "description": "a tweet or twitter username can be matched to gender",
+                    "required": [
+                        "payload.value"
+                    ],
+                    "accretion": false
+                }
+            ],
+            "48c9c01f.cfd7f": []
+        },
         "name": "",
         "title": "",
         "chart": "bar",
@@ -83,5 +108,42 @@
         "x": 336,
         "y": 114,
         "wires": []
+    },
+    {
+        "id": "728c352de6172c",
+        "type": "twitter",
+        "z": "1f9a05e0.1ae7ea",
+        "ptype": {
+            "728c352de6172c": [
+                {
+                    "type": "identifier",
+                    "ordinal": "primary",
+                    "description": "a tweet or twitter username can be matched to an individual",
+                    "required": [
+                        "payload.value"
+                    ],
+                    "accretion": false
+                },
+                {
+                    "type": "personal",
+                    "subtype": "gender",
+                    "ordinal": "primary",
+                    "description": "a tweet or twitter username can be matched to gender",
+                    "required": [
+                        "payload.value"
+                    ],
+                    "accretion": false
+                }
+            ]
+        },
+        "name": "",
+        "subtype": "twitterHashTagStream",
+        "x": 113,
+        "y": 328,
+        "wires": [
+            [
+                "48c9c01f.cfd7f"
+            ]
+        ]
     }
 ]
