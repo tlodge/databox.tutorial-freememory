@@ -21,8 +21,7 @@
             "purpose": "asd",
             "required": false,
             "datastores": [
-                "9128d013.fb4b7",
-                "728c352de6172c"
+                "9128d013.fb4b7"
             ],
             "benefits": "sadas"
         }
@@ -35,20 +34,6 @@
             "name": "free memory",
             "clientid": "9128d013.fb4b7",
             "granularities": []
-        },
-        {
-            "type": "twitterHashTagStream",
-            "required": true,
-            "name": "twitter",
-            "clientid": "728c352de6172c",
-            "granularities": []
-        },
-        {
-            "type": "personalLoggerActuator",
-            "required": false,
-            "name": "personalLoggerActuator",
-            "clientid": "personalLoggerActuator",
-            "granularites": []
         }
     ],
     "network-permissions": [],
@@ -56,6 +41,6 @@
     "volumes": [],
     "export-whitelist": [],
     "docker-image": "tlodge-monitor",
-    "docker-registry": "registry.iotdatabox.com",
+    "docker-registry": "databox",
     "docker-image-tag": "latest"
 }
