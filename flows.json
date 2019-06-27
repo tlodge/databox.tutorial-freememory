@@ -24,9 +24,7 @@
         "id": "48c9c01f.cfd7f",
         "type": "chartify",
         "z": "1f9a05e0.1ae7ea",
-        "ptype": {
-            "48c9c01f.cfd7f": []
-        },
+        "ptype": {},
         "name": "",
         "title": "",
         "chart": "bar",
