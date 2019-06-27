@@ -7,7 +7,7 @@
     "licence": "MIT",
     "databox-type": "app",
     "tags": [
-        "adslhs"
+        "memory"
     ],
     "homepage": "https://github.com/tlodge/tutorial-freememory",
     "repository": {
@@ -18,12 +18,12 @@
         {
             "id": "1f9a05e0.1ae7ea",
             "name": "new package",
-            "purpose": "asd",
+            "purpose": "test",
             "required": false,
             "datastores": [
                 "9128d013.fb4b7"
             ],
-            "benefits": "sadas"
+            "benefits": "TEST"
         }
     ],
     "allowed-combinations": [],
